@@ -30,13 +30,13 @@
             </div>
         </nav>
 
-        <section class="hero">
+        <section class="hero" style="margin: 30px 0 30px 0">
             <div class="ambient-1"></div>
             <div class="ambient-2"></div>
             <div class="dot-pattern"></div>
 
             <div class="container">
-                <div class="badge">சென்னை • ஜூலை 9,10,11 2026</div>
+                <div class="badge">சென்னை • ஜூலை 9, 10, 11 2026</div>
 
                 <h1 class="hero-title">
                     <span class="tamil-font block"
@@ -51,6 +51,21 @@
                     privacy-first tools, translation frameworks, and computing
                     freedom for the next generation.
                 </p>
+
+                <div class="agenda-timeline">
+                    <div class="agenda-item">
+                        <span class="agenda-date">July 9</span>
+                        <span class="agenda-event">Hackathon</span>
+                    </div>
+                    <div class="agenda-item">
+                        <span class="agenda-date">July 10</span>
+                        <span class="agenda-event">Workshops</span>
+                    </div>
+                    <div class="agenda-item">
+                        <span class="agenda-date">July 11</span>
+                        <span class="agenda-event">Talks & Stalls</span>
+                    </div>
+                </div>
 
                 <div class="countdown">
                     <div class="countdown-box glass">
@@ -88,10 +103,10 @@
                     <div>
                         <div class="section-tagline">// TOSSHACK '26</div>
                         <h2 class="section-title tamil-font">
-                            நிரலாக்கத் திருவிழா சவால்கள்
+                            TossHack'26 - நிரலாக்கத் திருவிழா சவால்கள்
                         </h2>
                         <p class="section-desc">
-                            We have outlined 18 distinct problem statements.
+                            We have outlined 20 distinct problem statements.
                             Build scalable solutions, submit your work, and
                             accelerate open ecosystem development.
                         </p>
@@ -186,6 +201,10 @@
                         சமூகப் பங்களிப்பு படிவங்கள்
                     </h2>
                     <p>Call for Proposals & Engagements</p>
+                    <div class="deadline-banner">
+                        <span class="deadline-icon">⚠️</span>
+                        <span>Submission Deadline: June 20, 2026</span>
+                    </div>
                 </div>
 
                 <div class="grid-3">
@@ -194,14 +213,15 @@
                         style="--hover-border: var(--secondary-blue)"
                     >
                         <div class="contribute-card-top">
+                            <div class="coordinator-badge">JULY 11</div>
                             <div class="card-icon">🎤</div>
                             <h3 class="card-title tamil-font">
                                 பேச்சாளர் அழைப்பு
                             </h3>
                             <p class="card-desc">
-                                Propose technical talks, case studies, or
-                                conceptual frameworks regarding Linux, FOSS
-                                development, and language infrastructure.
+                                Join us on July 11 for technical talks and case
+                                studies regarding Linux, FOSS development, and
+                                language infrastructure.
                             </p>
                         </div>
                         <a
@@ -217,6 +237,7 @@
                         style="--hover-border: #9333ea"
                     >
                         <div class="contribute-card-top">
+                            <div class="coordinator-badge">JULY 10</div>
                             <div class="card-icon">🛠️</div>
                             <h3 class="card-title tamil-font">
                                 பயிற்சிப் பட்டறைகள்
@@ -240,6 +261,7 @@
                         style="--hover-border: var(--primary-blue)"
                     >
                         <div class="contribute-card-top">
+                            <div class="coordinator-badge">JULY 11</div>
                             <div class="card-icon">🎪</div>
                             <h3 class="card-title tamil-font">
                                 அரங்குகள் அனுமதி
@@ -309,7 +331,7 @@
 
         <script>
             // Precision Dynamic Countdown Timer
-            const targetTimeline = new Date("July 8, 2026 09:00:00").getTime();
+            const targetTimeline = new Date("July 9, 2026 09:00:00").getTime();
 
             function runCountdownEngine() {
                 const currentPeriod = new Date().getTime();

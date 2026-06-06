@@ -275,6 +275,46 @@ body {
     margin-top: 4px;
 }
 
+/* Agenda Date Widget */
+.agenda-timeline {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+}
+.agenda-item {
+    background: white;
+    border: 1px solid var(--border-color);
+    padding: 16px 24px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 180px;
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+}
+.agenda-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 20px rgba(0, 86, 179, 0.1);
+    border-color: var(--primary-blue);
+}
+.agenda-date {
+    font-size: 11px;
+    font-weight: 900;
+    color: var(--primary-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 4px;
+}
+.agenda-event {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark-text);
+}
+
 /* Control Button Engine */
 .btn-holder {
     display: flex;
@@ -640,6 +680,26 @@ body {
     font-size: 14px;
     line-height: 1.6;
 }
+
+/* Submission Deadline Banner */
+.deadline-banner {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 24px;
+    background-color: #fff4f4;
+    border: 1px solid #feb2b2;
+    border-radius: 12px;
+    color: #c53030;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 14px;
+    box-shadow: 0 2px 10px rgba(197, 48, 48, 0.05);
+}
+.deadline-icon {
+    font-size: 18px;
+}
+
 .btn-card {
     display: block;
     width: 100%;
